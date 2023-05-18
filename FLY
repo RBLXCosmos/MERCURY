@@ -188,7 +188,3 @@ if nowe == true then
 
 
 	end
-while flying do
-print(flytext)
-task.wait()
-end
