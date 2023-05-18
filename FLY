@@ -1,5 +1,5 @@
 local speaker = game:GetService("Players").LocalPlayer
-
+speeds = 1
 if nowe == true then
 		nowe = false
 
