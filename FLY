@@ -1,5 +1,5 @@
 local speaker = game:GetService("Players").LocalPlayer
-speeds = flytext
+speeds = 900
 if nowe == true then
 		nowe = false
 
