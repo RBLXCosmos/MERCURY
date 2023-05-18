@@ -17,7 +17,6 @@ if nowe == true then
 		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)
 		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
 		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)
-		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
 		speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
 	else 
 		nowe = true
@@ -63,7 +62,6 @@ if nowe == true then
 		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
 		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false)
 		speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
-		speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
 	end
 
 
