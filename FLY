@@ -1,3 +1,5 @@
+local speaker = game:GetService("Players").LocalPlayer
+
 if nowe == true then
 		nowe = false
 
